@@ -4,7 +4,7 @@
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
-	background-color: rgb(224,224,224);
+	background-color: white;
 	position: fixed;
 }
 
@@ -46,13 +46,15 @@
 	border: 1px solid white;
 	background-color: white;
 }
-.nosignal{
+
+.nosignal {
 	margin: 0 1px;
 	height: 7px;
 	width: 7px;
 	border-radius: 4px;
 	border: 1px solid white;
-	background-color: rgb(66, 66, 66);;
+	background-color: rgb(66, 66, 66);
+	;
 }
 
 #sign-carrier {
@@ -61,6 +63,7 @@
 	font-size: 14px;
 	margin: 0 0 0 3px;
 }
+
 
 /*#signals {
 	width: 5%;
@@ -86,7 +89,8 @@
 	justify-content: flex-end;
 	align-items: center;
 }
-#status-power div:nth-child(2){
+
+#status-power div:nth-child(2) {
 	width: 35px;
 	height: 13px;
 	border: 1px solid white;
@@ -96,28 +100,29 @@
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	*/
-	
 }
 
-#power-time{
+#power-time {
 	width: 26px;
 	height: 11px;
 	background-color: white;
 	margin: 1px;
 	border-radius: 1px;
 }
-#status-power div:nth-child(3){
+
+#status-power div:nth-child(3) {
 	width: 3px;
 	height: 6px;
 	border-radius: 1px;
 	background-color: white;
 	margin: 0 2px 0 0;
 }
+
 #top-caption {
 	height: 75%;
 	width: 100%;
 	position: relative;
-	background-image: linear-gradient(to bottom,rgb(66, 66, 66),#616161 );
+	background-image: linear-gradient(to bottom, rgb(66, 66, 66), #616161);
 }
 
 #headline {
@@ -137,9 +142,9 @@
 	width: 25px;
 }
 
-#top-caption div img{
+#top-caption div img {
 	height: 25px;
-	width: 25px;	
+	width: 25px;
 }
 
 .tool_left {
@@ -147,9 +152,9 @@
 	left: 5px;
 	top: 15px;
 	/*font-size: 90%;*/
-	
 }
-#top-caption .tool_left img{
+
+#top-caption .tool_left img {
 	height: 16px;
 	width: 20px;
 	margin: 0 0 3px 0;
